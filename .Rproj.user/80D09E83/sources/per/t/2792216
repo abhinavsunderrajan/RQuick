@@ -1,0 +1,23 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1546239999715.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "1139266852",
+    "id" : "2792216",
+    "lastKnownWriteTime" : 1546228649,
+    "last_content_update" : 1546228649,
+    "path" : "~/Desktop/DemosR/LassoAndRidge.R",
+    "project_path" : "LassoAndRidge.R",
+    "properties" : {
+        "cursorPosition" : "0,0",
+        "scrollLine" : "0",
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

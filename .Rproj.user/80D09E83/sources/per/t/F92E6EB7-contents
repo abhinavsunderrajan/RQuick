@@ -1,0 +1,28 @@
+
+data=read.csv("datasets/sample.csv")
+#head(data)
+#no missing values
+sum(is.na(data))
+data$typical_price=(data$High+data$Close+data$Low)/3
+head(data)
+diff <- data[-1,7] - data[-nrow(data),7]
+data$money_flow=c(NA,diff)
+data$positive_money_flow=ifelse(data$money_flow>0,data$typical_price*data$Volume,NA)
+data$negative_money_flow=ifelse(data$money_flow>0,NA,data$typical_price*data$Volume)
+
+data$positive_money_flow_sum=zoo::rollapply(data$positive_money_flow, width=10, FUN=function(x) mean(x, na.rm = TRUE), by=1, by.column=TRUE, partial=FALSE, fill=NA, align="right")
+data$negative_money_flow_sum=zoo::rollapply(data$negative_money_flow, width=10, FUN=function(x) mean(x, na.rm=TRUE), by=1, by.column=TRUE, partial=FALSE, fill=NA, align="right")
+
+data$money_ratio=data$positive_money_flow_sum/data$negative_money_flow_sum
+data$money_flow_index=100*data$money_ratio/(1+data$money_ratio)
+
+
+data=data[,-13]
+colnames(data)=c("Day","Open","High",                   
+"Low" ,"Close","Volume",               
+"Typical Price","Money Flow","Positive Money Flow",   
+"Negative Money Flow"  ,   "Positive Money Flow Sum", "Negative Money Flow Sum",
+"Money Flow Index" )
+
+
+expected=data=read.csv("datasets/sample_output_10.csv")

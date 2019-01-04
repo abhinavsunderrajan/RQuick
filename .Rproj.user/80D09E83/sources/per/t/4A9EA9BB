@@ -1,0 +1,23 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1546240248745.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "2189760438",
+    "id" : "4A9EA9BB",
+    "lastKnownWriteTime" : 1545903824,
+    "last_content_update" : 1545903824,
+    "path" : "~/Desktop/DemosR/BostonHousingLinearRgression.R",
+    "project_path" : "BostonHousingLinearRgression.R",
+    "properties" : {
+        "cursorPosition" : "15,0",
+        "scrollLine" : "0",
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 5,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

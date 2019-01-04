@@ -1,0 +1,22 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1546240072452.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "2582748604",
+    "id" : "23EA571C",
+    "lastKnownWriteTime" : 1504429383,
+    "last_content_update" : 1504429383,
+    "path" : "~/Desktop/DemosR/BikeSharingExpolatory.R",
+    "project_path" : "BikeSharingExpolatory.R",
+    "properties" : {
+        "cursorPosition" : "21,17",
+        "scrollLine" : "0"
+    },
+    "relative_order" : 3,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

@@ -1,0 +1,23 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1546240120458.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "358544827",
+    "id" : "8DB38F95",
+    "lastKnownWriteTime" : 1545909332,
+    "last_content_update" : 1545909332,
+    "path" : "~/Desktop/DemosR/Datetimes.R",
+    "project_path" : "Datetimes.R",
+    "properties" : {
+        "cursorPosition" : "10,0",
+        "scrollLine" : "0",
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 4,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}
